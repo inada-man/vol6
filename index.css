@@ -1,0 +1,19 @@
+.animate__animated {
+    font-size: 80px;
+    text-align: center; 
+}
+
+img{
+    max-width: 100vw;
+    margin: auto;
+    display: block;
+}
+
+:root {
+    --animate-delay: 2s;
+  }
+  
+  /* All delay classes will take half the time to start */
+  :root {
+    --animate-delay: 0.5s;
+  }
